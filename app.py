@@ -45,3 +45,6 @@ async def create_blogs(request: Request):
 
     state = graph.invoke(initial_state)
     return {"data": state.get("html", ""), "title": state.get("title", ""), "images": state.get("images", [])}
+
+if __name__=="__main__":
+    uvicorn.run("app:app",host="0.0.0.0",port=8000,reload=True)
