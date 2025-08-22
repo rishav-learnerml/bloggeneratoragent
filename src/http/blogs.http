@@ -1,0 +1,15 @@
+### Create Blog (valid topic)
+POST http://localhost:8000/blogs
+Content-Type: application/json
+
+{
+  "topic": "The Future of Artificial Intelligence"
+}
+
+### Create Blog (missing topic - should return error or empty state)
+POST http://localhost:8000/blogs
+Content-Type: application/json
+
+{
+  "topic": ""
+}
