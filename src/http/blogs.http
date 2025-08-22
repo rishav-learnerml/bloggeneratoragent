@@ -1,15 +1,26 @@
-### Create Blog (valid topic)
+### Simple topic flow
 POST http://localhost:8000/blogs
 Content-Type: application/json
 
 {
-  "topic": "The Future of Artificial Intelligence"
+  "topic": "The Future of Electric Vehicles"
 }
 
-### Create Blog (missing topic - should return error or empty state)
+### Language route: translate to Spanish
 POST http://localhost:8000/blogs
 Content-Type: application/json
 
 {
-  "topic": ""
+  "topic": "AI safety and alignment",
+  "language": "es",
+  "action": "translate"
+}
+
+### Language route: summarize
+POST http://localhost:8000/blogs
+Content-Type: application/json
+
+{
+  "topic": "Serverless architectures for startups",
+  "action": "summarize"
 }
