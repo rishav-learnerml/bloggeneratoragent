@@ -1,5 +1,5 @@
 📝 Blog Generator Agent
-<p align="center"> <img src="https://img.shields.io/badge/AI-Agentic-blue?logo=openai&logoColor=white" alt="Agentic AI"/> <img src="https://img.shields.io/badge/Framework-LangGraph-green" alt="LangGraph"/> <img src="https://img.shields.io/badge/UI-Streamlit-orange" alt="Streamlit"/> <img src="https://img.shields.io/badge/Blogs-MultiLanguage-purple" alt="Multi Language"/> </p>
+<p align="center"> <img src="https://img.shields.io/badge/AI-Agentic-blue?logo=openai&logoColor=white" alt="Agentic AI"/> <img src="https://img.shields.io/badge/Framework-React-green" alt="React"/> <img src="https://img.shields.io/badge/UI-Streamlit-orange" alt="Streamlit"/> <img src="https://img.shields.io/badge/Blogs-MultiLanguage-purple" alt="Multi Language"/> </p>
 
 An Agentic AI-powered Blog Generator ⚡ that creates high-quality blogs in multiple languages using LangGraph and LLMs.
 Perfect for developers, writers, and creators who want to scale content effortlessly.
