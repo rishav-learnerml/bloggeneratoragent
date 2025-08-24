@@ -386,7 +386,7 @@
         } catch (err) {
           if (err.name === "AbortError") {
             setError(
-              "Request timed out. Is the backend running on http://localhost:8000/blogs ?"
+              "Request timed out. Is the backend running ?"
             );
           } else if (err instanceof TypeError && /fetch/.test(String(err))) {
             setError(
